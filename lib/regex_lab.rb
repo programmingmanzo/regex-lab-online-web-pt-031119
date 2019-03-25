@@ -1,8 +1,9 @@
 require 'pry'
 
-#word = "afoot"
+#word =
 
 def starts_with_a_vowel?(word)
+  word.match(/\b[aioeu]/)
   binding.pry 
 
 end
