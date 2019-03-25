@@ -3,7 +3,7 @@ require 'pry'
 #word = "afoot"
 
 def starts_with_a_vowel?(word)
-  word.match(/^\[aieou]/)
+  word.match(/A\[aieou]/)
   binding.pry 
 
 end
